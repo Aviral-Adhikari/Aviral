@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviral Adhikari - Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/sections.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/immersive-sections.css">
+    <link rel="stylesheet" href="styles/tech-stack.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/journey.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <h1 class="loader-text">Aviral</h1>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="scroll-progress"></div>
+        <div class="nav-container">
+            <a href="#home" class="nav-logo slide-in-left">Aviral</a>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link slide-in-top">Home</a>
+                <a href="about.html" class="nav-link slide-in-top">About</a>
+                <a href="tech.html" class="nav-link slide-in-top">Tech</a>
+                <a href="projects.html" class="nav-link slide-in-top">Projects</a>
+                <a href="journey.html" class="nav-link slide-in-top">Journey</a>
+                <a href="blog.html" class="nav-link slide-in-top">Blog</a>
+                <a href="contact.html" class="nav-link slide-in-top">Contact</a>
+            </nav>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content hidden">
+        <!-- Hero Section -->
+        <section class="immersive-section hero-immersive" id="home">
+            <div class="immersive-background"></div>
+            <div class="particles-container"></div>
+            
+            <div class="hero-content-immersive">
+                <div class="hero-greeting">
+                    <span class="wave">👋</span>
+                    <h2 class="greeting-text">Hello, I'm</h2>
+                </div>
+                <h1 class="hero-title-immersive">
+                    <span class="typing">Aviral Adhikari</span>
+                    <div class="title-decoration"></div>
+                </h1>
+                <p class="hero-subtitle-immersive">
+                    <span class="hero-role">IT Student</span> • 
+                    <span class="hero-role">Front-End Developer</span> • 
+                    <span class="hero-role">Entrepreneur</span>
+                </p>
+                
+                <div class="hero-description">
+                    <p>Passionate about creating beautiful and functional web experiences. Currently focused on front-end development and building innovative digital solutions.</p>
+                </div>
+                
+                <div class="hero-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-code"></i>
+                        <span>Clean Code</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-paint-brush"></i>
+                        <span>Creative Design</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-rocket"></i>
+                        <span>Fast Performance</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Problem Solver</span>
+                    </div>
+                </div>
+                
+                <div class="cta-buttons-immersive">
+                    <a href="#projects" class="btn-immersive primary-immersive">
+                        <span>View Projects</span>
+                        <i class="fas fa-arrow-right btn-icon"></i>
+                    </a>
+                    <a href="#contact" class="btn-immersive secondary-immersive">
+                        <span>Contact Me</span>
+                        <i class="fas fa-envelope btn-icon"></i>
+                    </a>
+                    <a href="assets/resume.pdf" download class="btn-immersive tertiary-immersive">
+                        <span>Download CV</span>
+                        <i class="fas fa-download btn-icon"></i>
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+                
+                <div class="scroll-indicator-immersive">
+                    <div class="mouse-immersive">
+                        <div class="wheel-immersive"></div>
+                    </div>
+                    <div class="arrow-immersive">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <p class="scroll-text">Scroll Down</p>
+                </div>
+            </div>
+            
+            <div class="hero-aside-left">
+                <img src="images/aviblue.png" alt="Aviral Adhikari" class="hero-user-image">
+                <div class="hero-tech-stack">
+                    <span class="tech-label">Tech Stack:</span>
+                    <div class="tech-icons">
+                        <div class="tech-icon-wrapper" title="HTML5">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="tech-icon-wrapper" title="CSS3">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="tech-icon-wrapper" title="JavaScript">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="tech-icon-wrapper" title="Python">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="tech-icon-wrapper" title="C Programming">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-floating-elements">
+                <div class="floating-icon" style="--delay: 0s; --x: -20%; --y: 20%">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="floating-icon" style="--delay: 1s; --x: 20%; --y: -15%">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="floating-icon" style="--delay: 2s; --x: -15%; --y: -25%">
+                    <i class="fab fa-js"></i>
+                </div>
+                <div class="floating-icon" style="--delay: 3s; --x: 25%; --y: 15%">
+                    <i class="fab fa-python"></i>
+                </div>
+                <div class="floating-icon" style="--delay: 4s; --x: -25%; --y: -15%">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="immersive-section about-immersive" id="about">
+            <div class="immersive-background"></div>
+            <div class="particles-container"></div>
+            
+            <h2 class="section-title-immersive">About Me</h2>
+            
+            <div class="about-container">
+                <div class="about-left">
+                    <div class="portrait-wrapper">
+                        <div class="portrait-circle">
+                            <img src="images/aviblue.png" alt="Aviral Adhikari" class="portrait-image">
+                        </div>
+                        <div class="tech-orbit">
+                            <div class="orbit-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="orbit-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="orbit-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="orbit-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="about-right">
+                    <div class="about-header">
+                        <h3 class="about-title">Crafting Digital Experiences</h3>
+                        <p class="about-subtitle">Frontend Developer & Tech Enthusiast</p>
+                    </div>
+                        
+                    <p class="about-intro">
+                        Hey there! I'm a <span class="highlight">creative developer</span> who loves turning complex problems into simple, beautiful, and intuitive designs. When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through tech blogs.
+                    </p>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-content">
+                                <h3>Clean Code</h3>
+                                <p>Writing maintainable, efficient, and well-documented code that scales.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="skill-content">
+                                <h3>Creative Design</h3>
+                                <p>Creating visually stunning interfaces that provide exceptional user experiences.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="skill-content">
+                                <h3>Performance</h3>
+                                <p>Building fast, responsive, and optimized web applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-cta">
+                        <a href="#projects" class="btn-immersive primary-immersive">
+                            <span>Explore My Work</span>
+                            <i class="fas fa-arrow-right btn-icon"></i>
+                        </a>
+                        <a href="#contact" class="btn-immersive secondary-immersive">
+                            <span>Let's Collaborate</span>
+                            <i class="fas fa-handshake btn-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section class="immersive-section tech-stack-immersive" id="tech-stack">
+            <div class="immersive-background"></div>
+            <div class="particles-container"></div>
+            
+            <h2 class="section-title-immersive">My Tech Stack</h2>
+            
+            <div class="tech-intro">
+                <p>These are the technologies I work with to bring ideas to life. Each tool has been carefully selected to create seamless, responsive, and engaging web experiences.</p>
+            </div>
+            
+            <div class="tech-grid-immersive">
+                <div class="tech-item-immersive" data-tech="HTML5">
+                    <div class="tech-icon-immersive">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="tech-details">
+                        <span class="tech-name-immersive">HTML5</span>
+                        <div class="tech-level">
+                            <div class="level-bar" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-item-immersive" data-tech="CSS3">
+                    <div class="tech-icon-immersive">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="tech-details">
+                        <span class="tech-name-immersive">CSS3</span>
+                        <div class="tech-level">
+                            <div class="level-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-item-immersive" data-tech="JavaScript">
+                    <div class="tech-icon-immersive">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="tech-details">
+                        <span class="tech-name-immersive">JavaScript</span>
+                        <div class="tech-level">
+                            <div class="level-bar" style="width: 45%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-item-immersive" data-tech="React">
+                    <div class="tech-icon-immersive">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="tech-details">
+                        <span class="tech-name-immersive">React</span>
+                        <div class="tech-level">
+                            <div class="level-bar" style="width: 10%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-item-immersive" data-tech="Node.js">
+                    <div class="tech-icon-immersive">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <div class="tech-details">
+                        <span class="tech-name-immersive">Node.js</span>
+                        <div class="tech-level">
+                            <div class="level-bar" style="width: 10%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-item-immersive" data-tech="Firebase">
+                    <div class="tech-icon-immersive">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <div class="tech-details">
+                        <span class="tech-name-immersive">Firebase</span>
+                        <div class="tech-level">
+                            <div class="level-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-item-immersive" data-tech="Git">
+                    <div class="tech-icon-immersive">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <div class="tech-details">
+                        <span class="tech-name-immersive">Git</span>
+                        <div class="tech-level">
+                            <div class="level-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-item-immersive" data-tech="Figma">
+                    <div class="tech-icon-immersive">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <div class="tech-details">
+                        <span class="tech-name-immersive">Figma</span>
+                        <div class="tech-level">
+                            <div class="level-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="immersive-section projects-immersive" id="projects">
+            <div class="immersive-background"></div>
+            <div class="particles-container"></div>
+            
+            <h2 class="section-title-immersive">Featured Projects</h2>
+            
+            <div class="projects-intro">
+                <p>Here are some of my recent projects that showcase my skills and passion for creating engaging digital experiences.</p>
+            </div>
+            
+            <div class="projects-filter-immersive">
+                <button class="filter-btn-immersive active" data-filter="all">All Projects</button>
+                <button class="filter-btn-immersive" data-filter="web">Web Development</button>
+                <button class="filter-btn-immersive" data-filter="ui">UI/UX Design</button>
+                <button class="filter-btn-immersive" data-filter="app">App Development</button>
+            </div>
+            
+            <div class="projects-grid-immersive">
+                <div class="project-card-immersive" data-category="web">
+                    <div class="project-image-immersive">
+                        <img src="images/lhwebsite.png" alt="E-Commerce Platform" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links-immersive">
+                                <a href="https://aviral-adhikari.github.io/LegalHeart/html/index.html" class="project-link-immersive">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://aviral-adhikari.github.io/LegalHeart/html/index.html" class="project-link-immersive">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content-immersive">
+                        <h3 class="project-title-immersive">Law Firm Website for Legal Heart</h3>
+                        <p class="project-description-immersive">A modern solution and global presence for a law firm</p>
+                        <div class="project-tech-immersive">
+                            <span class="tech-tag-immersive">HTML</span>
+                            <span class="tech-tag-immersive">CSS</span>
+                            <span class="tech-tag-immersive">JS</span>
+                            <span class="tech-tag-immersive">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card-immersive" data-category="ui">
+                    <div class="project-image-immersive">
+                        <img src="images/ifihustleweb.png" alt="iFiHustle" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links-immersive">
+                                <a href="#" class="project-link-immersive">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link-immersive">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content-immersive">
+                        <h3 class="project-title-immersive">Website for a startup "iFiHustle"</h3>
+                        <p class="project-description-immersive">Working on a front-end of apersonal project named iFiHustle</p>
+                        <div class="project-tech-immersive">
+                            <span class="tech-tag-immersive">HTML</span>
+                            <span class="tech-tag-immersive">CSS</span>
+                            <span class="tech-tag-immersive">JS</span>
+                            <span class="tech-tag-immersive">Figma</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card-immersive" data-category="app">
+                    <div class="project-image-immersive">
+                        <img src="images/ificode web.png" alt="Fitness Tracker" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links-immersive">
+                                <a href="#" class="project-link-immersive">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link-immersive">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content-immersive">
+                        <h3 class="project-title-immersive">Website for iFiCode</h3>
+                        <p class="project-description-immersive">Website for iFiCode, a startup that craft codes for your business</p>
+                        <div class="project-tech-immersive">
+                            <span class="tech-tag-immersive">React Native</span>
+                            <span class="tech-tag-immersive">Firebase</span>
+                            <span class="tech-tag-immersive">Redux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Journey / Timeline Section -->
+        <section class="immersive-section journey-immersive" id="journey">
+            <div class="immersive-background"></div>
+            <div class="particles-container"></div>
+            
+            <h2 class="section-title-immersive">My Journey</h2>
+            
+            <div class="journey-intro">
+                <p>Here's a glimpse into my professional path and key milestones that have shaped my career in technology.</p>
+            </div>
+            
+            <div class="immersive-timeline">
+                <div class="timeline-line-immersive"></div>
+                
+                <div class="timeline-item-immersive">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content-immersive">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-text">
+                            <h3>Front-End Developer and Founder</h3>
+                            <p class="timeline-date">2024 - Present</p>
+                            <p>>Worked on building responsive web applications and improving user experiences at ificode.</p>
+                            <div class="completion-bar">
+                                <div class="completion-label">Completion: 75%</div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item-immersive">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content-immersive">
+                        <div class="timeline-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-text">
+                            <h3>Front-End Developer</h3>
+                            <p class="timeline-date">2024-Present</p>
+                            <p>Working on a personal project named iFiHustle</p>
+                            <div class="completion-bar">
+                                <div class="completion-label">Completion: 75%</div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item-immersive">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content-immersive">
+                        <div class="timeline-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="timeline-text">
+                            <h3>BScIT at Westcliff University</h3>
+                            <p class="timeline-date">2023-Present</p>
+                            <p>Pursuing a degree in Computer Science with focus on web technologies and cyber security</p>
+                            <div class="completion-bar">
+                                <div class="completion-label">Completion: 45%</div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 45%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item-immersive">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content-immersive">
+                        <div class="timeline-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="timeline-text">
+                            <h3>E-Commerce Startup</h3>
+                            <p class="timeline-date">2023-2024</p>
+                            <p>Founded a e-commerce startup focused on dropshipping and online marketing</p>
+                            <div class="completion-bar">
+                                <div class="completion-label">Completion: 100%</div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 100%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="immersive-section contact-immersive" id="contact">
+            <div class="immersive-background"></div>
+            <div class="particles-container"></div>
+            
+            <h2 class="section-title-immersive">Let's Connect</h2>
+            
+            <div class="contact-immersive-container">
+                <div class="contact-form-immersive">
+                    <form id="contactForm" action="https://formspree.io/f/xeokjbjg" method="POST">
+                        <div class="form-group-immersive">
+                            <div class="form-icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <input type="text" id="name-immersive" name="name" required>
+                            <label for="name-immersive">Your Name</label>
+                        </div>
+                        
+                        <div class="form-group-immersive">
+                            <div class="form-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <input type="email" id="email-immersive" name="email" required>
+                            <label for="email-immersive">Your Email</label>
+                        </div>
+                        
+                        <div class="form-group-immersive">
+                            <div class="form-icon">
+                                <i class="fas fa-comment"></i>
+                            </div>
+                            <textarea id="message-immersive" name="message" required></textarea>
+                            <label for="message-immersive">Your Message</label>
+                        </div>
+                        
+                        <button type="submit" class="send-btn-immersive">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane btn-icon"></i>
+                        </button>
+                    </form>
+                    
+                    <div class="success-message">
+                        <div class="checkmark">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <h3>Message Sent!</h3>
+                        <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
+                        <button class="close-btn">Close</button>
+                    </div>
+                </div>
+                
+                <div class="contact-info-immersive">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>aviraladhikari@ificode.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+977 9844550537</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Kathmandu, Nepal</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-icons-immersive">
+                        <a href="https://www.linkedin.com/in/aviraladhikari/" target="_blank" class="social-icon-immersive">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Aviral-Adhikari" target="_blank" class="social-icon-immersive">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/avi_aviral__/" target="_blank" class="social-icon-immersive">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-icon-immersive">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-immersive">
+            <div class="footer-background"></div>
+            <div class="footer-content-immersive">
+                <div class="footer-logo-immersive">
+                    <span class="logo-text">Aviral Adhikari</span>
+                    <span class="logo-tagline">Full Stack Developer</span>
+                </div>
+                
+                <div class="footer-links-immersive">
+                    <h3>Quick Links</h3>
+                    <a href="#home" class="footer-link-immersive">Home</a>
+                    <a href="#about" class="footer-link-immersive">About</a>
+                    <a href="tech.html" class="footer-link-immersive">Tech Stack</a>
+                    <a href="#projects" class="footer-link-immersive">Projects</a>
+                    <a href="#journey" class="footer-link-immersive">Journey</a>
+                    <a href="blog.html" class="footer-link-immersive">Blog</a>
+                    <a href="#contact" class="footer-link-immersive">Contact</a>
+                </div>
+                
+                <div class="footer-social-immersive">
+                    <h3>Connect With Me</h3>
+                    <div class="footer-social-icons">
+                        <a href="https://github.com/Aviral-Adhikari" class="social-icon">GitHub</a>
+                        <a href="https://www.linkedin.com/in/aviraladhikari/" class="social-icon">LinkedIn</a>
+                        <a href="https://www.instagram.com/avi_aviral__/" class="social-icon">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-divider"></div>
+            
+            <div class="footer-bottom-immersive">
+                <p>&copy; 2023 Aviral Adhikari. All rights reserved.</p>
+            </div>
+            
+            <div class="back-to-top-immersive">
+                <a href="#home" class="top-btn-immersive">
+                    <i class="fas fa-chevron-up"></i>
+                </a>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.121.1/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/typewriter.js"></script>
+    <script src="js/immersive-sections.js"></script>
+</body>
+</html>

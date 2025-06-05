@@ -1,0 +1,13 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" rx="10" fill="url(#project5Gradient)"/>
+  <defs>
+    <linearGradient id="project5Gradient" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF3CAC"/>
+      <stop offset="0.5" stop-color="#784BA0"/>
+      <stop offset="1" stop-color="#2B86C5"/>
+    </linearGradient>
+  </defs>
+  <path d="M120 100L200 80L280 100V200L200 220L120 200V100Z" stroke="white" stroke-width="4"/>
+  <path d="M200 80V220M120 100L200 120L280 100M120 150L200 170L280 150" stroke="white" stroke-width="4"/>
+  <text x="200" y="240" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">Project 5</text>
+</svg>

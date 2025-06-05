@@ -1,0 +1,271 @@
+/* Projects Section Styles */
+.projects-immersive {
+    color: var(--color-light);
+    text-align: center;
+}
+
+.projects-intro {
+    max-width: 800px;
+    margin: 0 auto var(--space-10);
+    color: var(--color-light-muted);
+    font-size: var(--font-size-lg);
+    line-height: 1.8;
+}
+
+.projects-filter-immersive {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    margin-bottom: var(--space-10);
+}
+
+.filter-btn-immersive {
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--backdrop-blur));
+    -webkit-backdrop-filter: blur(var(--backdrop-blur));
+    border: 1px solid var(--glass-border);
+    border-radius: var(--border-radius-full);
+    padding: var(--space-3) var(--space-5);
+    color: var(--color-light);
+    font-family: var(--font-special);
+    font-size: var(--font-size-sm);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.filter-btn-immersive:hover,
+.filter-btn-immersive.active {
+    background: var(--gradient-primary);
+    border-color: transparent;
+    box-shadow: var(--shadow-glow-primary-sm);
+    transform: translateY(-3px);
+}
+
+.projects-grid-immersive {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: var(--space-6);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--space-4);
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-primary) transparent;
+}
+
+.projects-grid-immersive::-webkit-scrollbar {
+    height: 8px;
+}
+
+.projects-grid-immersive::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.projects-grid-immersive::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius-full);
+}
+
+.project-card-immersive {
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--backdrop-blur));
+    -webkit-backdrop-filter: blur(var(--backdrop-blur));
+    border-radius: var(--border-radius-lg);
+    border: 1px solid var(--glass-border);
+    overflow: hidden;
+    transition: all var(--transition-normal);
+    position: relative;
+    min-width: 320px;
+    flex: 0 0 auto;
+}
+
+.project-card-immersive::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.1) 100%);
+    transform: translateX(-100%);
+    transition: transform 0.6s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.project-card-immersive:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-glow-primary-sm);
+    border-color: rgba(var(--color-primary-rgb), 0.3);
+}
+
+.project-card-immersive:hover::before {
+    transform: translateX(100%);
+}
+
+.project-image-immersive {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-normal);
+}
+
+.project-card-immersive:hover .project-img {
+    transform: scale(1.05);
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+}
+
+.project-card-immersive:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-links-immersive {
+    display: flex;
+    gap: var(--space-4);
+}
+
+.project-link-immersive {
+    width: 45px;
+    height: 45px;
+    border-radius: var(--border-radius-full);
+    background: var(--gradient-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-light);
+    font-size: var(--font-size-lg);
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all var(--transition-normal);
+    box-shadow: var(--shadow-md);
+}
+
+.project-card-immersive:hover .project-link-immersive {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.project-link-immersive:hover {
+    transform: scale(1.1) !important;
+    box-shadow: var(--shadow-glow-primary);
+}
+
+.project-content-immersive {
+    padding: var(--space-5);
+    text-align: left;
+}
+
+.project-title-immersive {
+    font-family: var(--font-special);
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    margin-bottom: var(--space-3);
+    color: var(--color-light);
+    transition: color var(--transition-normal);
+}
+
+.project-card-immersive:hover .project-title-immersive {
+    color: var(--color-primary-light);
+}
+
+.project-description-immersive {
+    color: var(--color-light-muted);
+    font-size: var(--font-size-sm);
+    line-height: 1.6;
+    margin-bottom: var(--space-4);
+}
+
+.project-tech-immersive {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+}
+
+.tech-tag-immersive {
+    background: rgba(var(--color-primary-rgb), 0.2);
+    border-radius: var(--border-radius-full);
+    padding: var(--space-1) var(--space-3);
+    font-size: var(--font-size-xs);
+    color: var(--color-primary-light);
+    transition: all var(--transition-normal);
+}
+
+.project-card-immersive:hover .tech-tag-immersive {
+    background: rgba(var(--color-primary-rgb), 0.3);
+    transform: translateY(-2px);
+}
+
+/* Projects Section Responsive Styles */
+@media (max-width: 1200px) {
+    .projects-grid-immersive {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-5);
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-grid-immersive {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    .filter-btn-immersive {
+        padding: var(--space-2) var(--space-4);
+        font-size: var(--font-size-xs);
+    }
+    
+    .projects-filter-immersive {
+        gap: var(--space-3);
+        margin-bottom: var(--space-8);
+    }
+}
+
+@media (max-width: 480px) {
+    .project-image-immersive {
+        height: 180px;
+    }
+    
+    .project-content-immersive {
+        padding: var(--space-4);
+    }
+    
+    .project-title-immersive {
+        font-size: var(--font-size-lg);
+    }
+}
+
+/* Add scrollbar styling */
+.projects-grid-immersive::-webkit-scrollbar {
+    height: 8px;
+}
+
+.projects-grid-immersive::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--border-radius-full);
+}
+
+.projects-grid-immersive::-webkit-scrollbar-thumb {
+    background: var(--gradient-primary);
+    border-radius: var(--border-radius-full);
+}

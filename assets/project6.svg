@@ -1,0 +1,16 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" rx="10" fill="url(#project6Gradient)"/>
+  <defs>
+    <linearGradient id="project6Gradient" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0093E9"/>
+      <stop offset="1" stop-color="#80D0C7"/>
+    </linearGradient>
+  </defs>
+  <rect x="130" y="90" width="140" height="120" rx="10" stroke="white" stroke-width="4"/>
+  <path d="M130 120H270" stroke="white" stroke-width="4"/>
+  <circle cx="145" cy="105" r="5" fill="white"/>
+  <circle cx="160" cy="105" r="5" fill="white"/>
+  <circle cx="175" cy="105" r="5" fill="white"/>
+  <path d="M150 150L180 170L250 130" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="240" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">Project 6</text>
+</svg>

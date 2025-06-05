@@ -1,0 +1,164 @@
+/* Tech Stack Section Styles */
+.tech-stack-immersive {
+    color: var(--color-light);
+    text-align: center;
+}
+
+.tech-intro {
+    max-width: 800px;
+    margin: 0 auto var(--space-10);
+    color: var(--color-light-muted);
+    font-size: var(--font-size-lg);
+    line-height: 1.8;
+}
+
+.tech-grid-immersive {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-6);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--space-4);
+}
+
+.tech-item-immersive {
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--backdrop-blur));
+    -webkit-backdrop-filter: blur(var(--backdrop-blur));
+    border-radius: var(--border-radius-xl);
+    padding: var(--space-5);
+    border: 1px solid var(--glass-border);
+    transition: all var(--transition-normal);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-4);
+}
+
+.tech-item-immersive::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.1) 100%);
+    transform: translateX(-100%);
+    transition: transform 0.6s ease;
+}
+
+.tech-item-immersive:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-glow-primary-sm);
+    border-color: rgba(var(--color-primary-rgb), 0.3);
+}
+
+.tech-item-immersive:hover::before {
+    transform: translateX(100%);
+}
+
+.tech-icon-immersive {
+    width: 70px;
+    height: 70px;
+    border-radius: var(--border-radius-full);
+    background: var(--gradient-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-2xl);
+    color: var(--color-light);
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-normal);
+}
+
+.tech-item-immersive:hover .tech-icon-immersive {
+    transform: scale(1.1) rotate(10deg);
+    box-shadow: var(--shadow-glow-primary);
+}
+
+.tech-details {
+    width: 100%;
+    text-align: center;
+}
+
+.tech-name-immersive {
+    font-family: var(--font-special);
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    margin-bottom: var(--space-3);
+    color: var(--color-light);
+    display: block;
+    transition: color var(--transition-normal);
+}
+
+.tech-item-immersive:hover .tech-name-immersive {
+    color: var(--color-primary-light);
+}
+
+.tech-level {
+    width: 100%;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--border-radius-full);
+    overflow: hidden;
+    position: relative;
+}
+
+.level-bar {
+    height: 100%;
+    background: var(--gradient-primary);
+    border-radius: var(--border-radius-full);
+    position: relative;
+    transition: width 1s ease-in-out;
+}
+
+.level-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+/* Tech Stack Section Responsive Styles */
+@media (max-width: 1200px) {
+    .tech-grid-immersive {
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--space-5);
+    }
+}
+
+@media (max-width: 992px) {
+    .tech-grid-immersive {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-4);
+    }
+}
+
+@media (max-width: 576px) {
+    .tech-grid-immersive {
+        grid-template-columns: 1fr;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    
+    .tech-item-immersive {
+        padding: var(--space-4);
+    }
+    
+    .tech-icon-immersive {
+        width: 60px;
+        height: 60px;
+        font-size: var(--font-size-xl);
+    }
+}

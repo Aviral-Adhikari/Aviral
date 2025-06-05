@@ -1,0 +1,15 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" rx="10" fill="url(#project2Gradient)"/>
+  <defs>
+    <linearGradient id="project2Gradient" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00DBDE"/>
+      <stop offset="1" stop-color="#FC00FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="120" y="80" width="160" height="120" rx="10" stroke="white" stroke-width="4"/>
+  <path d="M140 120H260M140 160H260" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="160" cy="140" r="10" fill="white"/>
+  <circle cx="200" cy="140" r="10" fill="white"/>
+  <circle cx="240" cy="140" r="10" fill="white"/>
+  <text x="200" y="240" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">Project 2</text>
+</svg>
