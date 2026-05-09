@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Aviral Adhikari – Portfolio Website
 
 Personal portfolio website showcasing my cybersecurity learning journey, certifications, security labs, and technical skills.
@@ -115,3 +116,8 @@ Email
 Disclaimer
 
 All security experiments and testing mentioned in this portfolio are conducted in controlled environments, educational labs, or authorized practice platforms.
+=======
+Hello
+It is the portfolio website for Aviral Adhikari, a cybersecurity learner. 
+If you guys find any bugs and want me to improve them, please kindly contact me at aviraladhikar.05@gmail.com 
+>>>>>>> 39ab18215dfa1eae13bd7eaf20ef0661ec78c6cd
