@@ -1,77 +1,117 @@
-```
-# iFiCodeFood
+Aviral Adhikari – Portfolio Website
 
-This repository contains the source code for the iFiCodeFood application, split into two sub-projects:
-- **client/**: React frontend
-- **server/**: Node.js/Express backend
+Personal portfolio website showcasing my cybersecurity learning journey, certifications, security labs, and technical skills.
 
-## Prerequisites
+The website highlights my interest in cybersecurity, network analysis, vulnerability testing, and security experimentation, while also demonstrating my frontend development skills and AI-assisted coding experience.
 
-- Git (>= 2.x)
-- Node.js (>= 14.x)
-- Yarn (>= 1.22.x)
+Live Website: https://aviraladhikari.com.np
 
-## Setup
 
-1. Clone the repository  
-   ```
-   git clone https://github.com/your-org/iFiCodeFood.git
-   cd iFiCodeFood
-   ```
 
-2. Copy and configure environment variables  
-   ```
-   cp .env.example .env
-   ```
-   - Open `.env` in your editor  
-   - Fill in any required credentials (database URI, API keys, etc.)
+About
 
-3. Install dependencies  
-   ```
-   # From the project root
-   cd client && yarn install
-   cd ../server && yarn install
-   ```
+I am a cybersecurity learner and security enthusiast exploring different areas of cybersecurity through hands-on labs, security tools, and technical experimentation.
 
-## Development
+My learning currently focuses on:
 
-Launch both the frontend and backend in development mode:
+Web application security
+Network traffic analysis
+Vulnerability testing
+Malware behavior analysis
+Security labs and simulations
 
-```bash
-# In one terminal
-cd client
-yarn start
+Alongside cybersecurity learning, I also have experience with frontend development and AI-assisted coding, which helps me better understand how modern web applications are built and where security vulnerabilities can exist.
 
-# In another terminal
-cd server
-yarn start
-```
 
-- Frontend will run on http://localhost:3000  
-- Backend API will run on http://localhost:5000 (or the port specified in your .env)
 
-## Build & Deployment
 
-### Client
+Website Sections
 
-1. Build the production bundle  
-   ```bash
-   cd client
-   yarn build
-   ```
-2. Deploy the contents of `client/build/` to your static hosting provider.
+The portfolio contains the following sections:
 
-### Server
+Hero Introduction
+About Me
+Currently Exploring
+Security Labs & Experiments
+Cybersecurity Learning Roadmap
+Certifications
+Security Tools & Technologies
+Security Notes / Learning Writeups
+Contact Information
+Security Labs & Experiments
 
-1. Ensure the `.env` file on your production server is correctly configured.
-2. Install dependencies and start in production mode:  
-   ```bash
-   cd server
-   yarn install --production
-   NODE_ENV=production yarn start
-   ```
-3. Configure your process manager (e.g., PM2, systemd) or platform (Heroku, AWS, etc.) to keep the server running.
 
----
 
-You're all set! Reach out to the dev team if you run into any setup issues.
+
+
+Some of the security learning activities featured in this portfolio include:
+
+BTLO Labs
+Practicing beginner blue-team labs to understand security monitoring and defensive security concepts.
+
+BurpSuite Testing
+Experimenting with SQL injection and brute-force testing to understand web application vulnerabilities.
+
+Wireshark Packet Analysis
+Capturing and analyzing network packets to study network traffic patterns and suspicious activity.
+
+Cisco Packet Tracer Labs
+Creating network simulations with routers and switches to understand networking concepts.
+
+ANY.RUN Sandbox Analysis
+Analyzing malware samples from MalwareBazaar to observe threat behavior and attack techniques.
+
+
+
+
+
+Certifications
+
+The portfolio includes certifications from:
+
+Cisco
+EC-Council
+SAS
+
+Currently preparing for:
+
+ISC2 Certified in Cybersecurity (CC)
+
+
+
+
+
+Technologies Used
+
+Frontend
+HTML5
+CSS3
+JavaScript
+React
+Development Tools
+Git
+GitHub
+Systems & Platforms
+Linux
+Firebase
+AWS
+Security Tools
+BurpSuite
+Wireshark
+ANY.RUN
+Cisco Packet Tracer
+Installation / Running Locally
+
+
+
+Contact
+
+If you would like to connect or discuss cybersecurity topics:
+
+GitHub - 
+LinkedIn
+Email
+
+Disclaimer
+
+All security experiments and testing mentioned in this portfolio are conducted in controlled environments, educational labs, or authorized practice platforms.

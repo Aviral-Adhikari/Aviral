@@ -7,6 +7,17 @@ window.addEventListener('load', () => {
     const mainContent = document.querySelector('.main-content');
     const loaderText = document.querySelector('.loader-text');
 
+    if (!preloader || !loaderText) {
+        if (mainContent) {
+            mainContent.classList.remove('hidden');
+        }
+        initializeHeroAnimations();
+        initializeSectionAnimations();
+        window.preloaderDone = true;
+        document.dispatchEvent(new Event('preloaderDone'));
+        return;
+    }
+
     // Animate loader text
     gsap.to(loaderText, {
         opacity: 1,
@@ -40,6 +51,10 @@ function initializeHeroAnimations() {
     const heroSubtitle = document.querySelector('.hero-subtitle');
     const ctaButtons = document.querySelector('.cta-buttons');
     const scrollIndicator = document.querySelector('.scroll-indicator');
+
+    if (!heroTitle || !heroSubtitle || !ctaButtons || !scrollIndicator) {
+        return;
+    }
 
     const heroTimeline = gsap.timeline();
 
@@ -186,6 +201,10 @@ document.addEventListener('DOMContentLoaded', () => {
 // Back to Top Button
 window.addEventListener('scroll', () => {
     const backToTopBtn = document.querySelector('.back-to-top');
+
+    if (!backToTopBtn) {
+        return;
+    }
     
     if (window.scrollY > 500) {
         backToTopBtn.style.opacity = '1';

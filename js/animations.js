@@ -282,6 +282,10 @@ class TextScramble {
 
 // Initialize Text Scramble on Scroll
 document.addEventListener('DOMContentLoaded', () => {
+    if (document.body.classList.contains('portfolio-page') || document.querySelector('.portfolio-page')) {
+        return;
+    }
+
     const phrases = [
         'Front-End Developer',
         'UI/UX Designer',

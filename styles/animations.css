@@ -1,3 +1,4 @@
+/*animation.css*/
 /* Preloader */
 .preloader {
     position: fixed;
@@ -51,7 +52,7 @@
 .cursor-dot {
     width: 8px;
     height: 8px;
-    background: #00f5d4;
+    background: #7c3aed;
 }
 
 .cursor-outline {
