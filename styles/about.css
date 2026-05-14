@@ -1156,6 +1156,13 @@
     color: var(--about-text-muted);
 }
 
+.about-certification-intro {
+    max-width: 720px;
+    margin: 0 0 1rem;
+    color: var(--about-text-muted);
+    line-height: 1.75;
+}
+
 /* Animations */
 @keyframes rotate {
     from { transform: rotate(0deg); }

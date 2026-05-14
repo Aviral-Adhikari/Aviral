@@ -1,0 +1,338 @@
+/* ============================= */
+/* GLOBAL THEME */
+/* ============================= */
+
+:root{
+  --bg:#0B0B0F;
+  --panel:#111113;
+  --border:#27272A;
+
+  --text:#FFFFFF;
+  --text-muted:#A1A1AA;
+
+  --accent:#7C3AED;
+  --accent-hover:#8B5CF6;
+}
+
+/* RESET */
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:'Inter',sans-serif;
+  line-height:1.6;
+}
+
+/* ============================= */
+/* CONTAINER */
+/* ============================= */
+
+.cyber-container{
+  max-width:1200px;
+  margin:0 auto;
+  padding:0 24px;
+}
+
+/* ============================= */
+/* NAVBAR */
+/* ============================= */
+
+.navbar{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:#0B0B0F;
+  border-bottom:1px solid var(--border);
+  z-index:1000;
+}
+
+.nav-container{
+  max-width:1200px;
+  margin:0 auto;
+  padding:14px 24px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.nav-logo{
+  font-weight:700;
+  font-size:20px;
+  color:white;
+  text-decoration:none;
+}
+
+.nav-links{
+  display:flex;
+  gap:24px;
+}
+
+.nav-link{
+  color:var(--text-muted);
+  text-decoration:none;
+  font-weight:500;
+  transition:color .2s;
+}
+
+.nav-link:hover{
+  color:var(--accent);
+}
+
+/* ============================= */
+/* HERO */
+/* ============================= */
+
+.cyber-hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  padding-top:120px;
+  padding-bottom:120px;
+}
+
+.cyber-hero-grid{
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:40px;
+  align-items:center;
+}
+
+.cyber-hero-kicker{
+  font-size:14px;
+  color:var(--text-muted);
+  margin-bottom:12px;
+}
+
+.cyber-hero-title{
+  font-size:clamp(48px,6vw,72px);
+  margin:0 0 12px 0;
+}
+
+.cyber-gradient-text{
+  color:var(--accent);
+}
+
+.cyber-hero-subtitle{
+  font-size:22px;
+  margin-bottom:18px;
+  color:#E4E4E7;
+}
+
+.cyber-hero-description{
+  max-width:520px;
+  color:var(--text-muted);
+  margin-bottom:28px;
+}
+
+/* ============================= */
+/* BUTTONS */
+/* ============================= */
+
+.cyber-hero-actions{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+}
+
+.cyber-btn{
+  padding:12px 20px;
+  border-radius:8px;
+  border:1px solid var(--border);
+  color:white;
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+}
+
+.cyber-btn.primary{
+  background:var(--accent);
+  border:none;
+}
+
+.cyber-btn.primary:hover{
+  background:var(--accent-hover);
+}
+
+/* ============================= */
+/* HERO PANEL */
+/* ============================= */
+
+.cyber-hero-panel{
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:20px;
+}
+
+.terminal-header{
+  display:flex;
+  gap:6px;
+  margin-bottom:16px;
+}
+
+.terminal-dot{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background:#555;
+}
+
+.terminal-title{
+  margin-left:auto;
+  font-size:12px;
+  color:var(--text-muted);
+}
+
+.cyber-hero-metrics{
+  display:grid;
+  gap:14px;
+}
+
+.cyber-metric strong{
+  font-size:18px;
+}
+
+.cyber-metric span{
+  font-size:14px;
+  color:var(--text-muted);
+}
+
+.cyber-terminal-lines{
+  margin-top:18px;
+  font-family:'JetBrains Mono',monospace;
+  font-size:13px;
+  color:var(--text-muted);
+}
+
+/* ============================= */
+/* SECTIONS */
+/* ============================= */
+
+.cyber-section{
+  padding:100px 0;
+}
+
+.cyber-section-header{
+  text-align:center;
+  margin-bottom:60px;
+}
+
+.cyber-eyebrow{
+  font-size:12px;
+  letter-spacing:1px;
+  color:var(--accent);
+  margin-bottom:12px;
+}
+
+.cyber-section-title{
+  font-size:36px;
+  margin-bottom:12px;
+}
+
+.cyber-section-copy{
+  color:var(--text-muted);
+  max-width:600px;
+  margin:0 auto;
+}
+
+/* ============================= */
+/* GRID */
+/* ============================= */
+
+.cyber-grid{
+  display:grid;
+  gap:24px;
+}
+
+.cols-3{
+  grid-template-columns:repeat(3,1fr);
+}
+
+/* ============================= */
+/* CARDS */
+/* ============================= */
+
+.cyber-card{
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:22px;
+}
+
+.cyber-card h3{
+  margin-top:0;
+}
+
+.cyber-card p{
+  color:var(--text-muted);
+}
+
+/* ============================= */
+/* ABOUT LAYOUT */
+/* ============================= */
+
+.cyber-about-layout{
+  display:grid;
+  grid-template-columns:1fr 360px;
+  gap:30px;
+}
+
+/* ============================= */
+/* CONTACT */
+/* ============================= */
+
+.cyber-contact-panel{
+  max-width:700px;
+  margin:0 auto;
+  text-align:center;
+}
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+.footer-immersive{
+  margin-top:100px;
+  border-top:1px solid var(--border);
+  padding:40px 0;
+  text-align:center;
+  color:var(--text-muted);
+}
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media(max-width:980px){
+
+  .cyber-hero-grid{
+    grid-template-columns:1fr;
+  }
+
+  .cyber-about-layout{
+    grid-template-columns:1fr;
+  }
+
+  .cols-3{
+    grid-template-columns:1fr 1fr;
+  }
+
+}
+
+@media(max-width:700px){
+
+  .cols-3{
+    grid-template-columns:1fr;
+  }
+
+  .nav-links{
+    display:none;
+  }
+
+}

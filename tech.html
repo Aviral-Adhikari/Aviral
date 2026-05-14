@@ -3,35 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Tech Stack | Developer Portfolio</title>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/animations.css">
-    <link rel="stylesheet" href="styles/sections.css">
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="styles/immersive-sections.css">
-    <link rel="stylesheet" href="styles/tech.css">
+    <title>Security Tools & Technologies | Aviral Adhikari</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/unified-pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
-<body>
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="loader">
-            <span class="loader-text">LOADING TECH STACK</span>
-            <div class="loader-bar"></div>
-        </div>
-    </div>
-    
-    <!-- Custom Cursor -->
-    <div class="custom-cursor"></div>
+<body class="subpage tech-page">
     
     <!-- Navigation -->
     <nav class="navbar">
@@ -41,6 +19,7 @@
                 <a href="index.html" class="nav-link">Home</a>
                 <a href="about.html" class="nav-link">About</a>
                 <a href="projects.html" class="nav-link">Projects</a>
+                <a href="Certification.html" class="nav-link">Certifications</a>
                 <a href="tech.html" class="nav-link active">Tech</a>
                 <a href="blog.html" class="nav-link">Blog</a>
                 <a href="contact.html" class="nav-link">Contact</a>
@@ -54,20 +33,19 @@
     </nav>
     
     <!-- Main Content Wrapper with Continuous Background -->
-    <div class="page-background-wrapper">
-        <div class="particles-container" id="particles-js"></div>
+    <div class="page-background-wrapper portfolio-page">
+        <div class="particles-container"></div>
         <div class="immersive-background"></div>
 
         <!-- Hero Section with Animated Background -->
-        <section class="tech-hero">
-            <div class="tech-content">
-                <h1 class="tech-title">My Technology Arsenal</h1>
-                <p class="tech-description">Explore the technologies I use to create innovative digital experiences. From frontend frameworks to backend solutions, these are the tools that power my development process.</p>
-                <div class="scroll-indicator">
-                    <div class="mouse">
-                        <div class="wheel"></div>
-                    </div>
-                    <div class="arrow"></div>
+        <section class="page-hero section">
+            <div class="container page-hero-inner">
+                <p class="eyebrow">Security Tools & Technologies</p>
+                <h1 class="page-title">My Technology Arsenal</h1>
+                <p class="page-description">A practical stack of security tools, programming fundamentals, platforms, and frontend skills that support my cybersecurity learning journey.</p>
+                <div class="page-hero-actions">
+                    <a href="#tech-stack" class="button primary">Explore Stack</a>
+                    <a href="index.html#tools" class="button">Back to Portfolio</a>
                 </div>
             </div>
         </section>
@@ -76,419 +54,220 @@
         <main class="main-content">
 
             <!-- Tech Categories Section -->
-            <section class="tech-categories-section">
+            <section class="tech-categories-section section" id="tech-stack">
                 <div class="container">
-                    <h2 class="section-title">My Technology Arsenal</h2>
-                    <p class="section-subtitle">Tools and technologies I use to bring ideas to life</p>
-                    
-                    <div class="tech-filter">
-                        <button class="filter-btn active" data-filter="all">All</button>
-                        <button class="filter-btn" data-filter="frontend">Frontend</button>
-                        <button class="filter-btn" data-filter="backend">Backend</button>
-                        <button class="filter-btn" data-filter="tools">Tools</button>
-                        <button class="filter-btn" data-filter="learning">Learning</button>
+                    <div class="section-header">
+                        <p class="eyebrow">Technology Stack</p>
+                        <h2 class="section-title">Tools and technologies I use to learn, build, and test.</h2>
+                        <p class="section-copy">Organized by category so the security-first tools stay clear while development skills remain supporting context.</p>
                     </div>
                     
-                    <div class="tech-grid">
-                        <!-- Frontend -->
-                        <div class="tech-card" data-category="frontend">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fab fa-html5"></i>
+                    <div class="tech-categories">
+                        <section class="tech-category-group" aria-labelledby="frontend-title">
+                            <h3 class="tech-category-title" id="frontend-title">Frontend</h3>
+                            <div class="tech-grid">
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fab fa-html5"></i></div>
+                                        <h4 class="tech-name">HTML5</h4>
+                                        <p>3 Years - Basic to pretty average level. Comfortable with vibe coding.</p>
                                     </div>
-                                    <h3 class="tech-name">HTML5</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>HTML5</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 95%;"></div>
-                                        </div>
-                                        <span class="level-text">Expert</span>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fab fa-css3-alt"></i></div>
+                                        <h4 class="tech-name">CSS3</h4>
+                                        <p>2 Years - Basic to pretty average level. Comfortable with vibe coding.</p>
                                     </div>
-                                    <p>Building semantic, accessible web structures with modern HTML5 features.</p>
-                                    <div class="tech-years">3+ years</div>
-                                </div>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fab fa-js"></i></div>
+                                        <h4 class="tech-name">JavaScript</h4>
+                                        <p>Fundamentals and vibe coding.</p>
+                                    </div>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fab fa-react"></i></div>
+                                        <h4 class="tech-name">React</h4>
+                                        <p>Fundamentals.</p>
+                                    </div>
+                                </article>
                             </div>
-                        </div>
-                        
-                        <div class="tech-card" data-category="frontend">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fab fa-css3-alt"></i>
+                        </section>
+
+                        <section class="tech-category-group" aria-labelledby="backend-title">
+                            <h3 class="tech-category-title" id="backend-title">Backend &amp; Programming</h3>
+                            <div class="tech-grid">
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fab fa-node-js"></i></div>
+                                        <h4 class="tech-name">Node.js</h4>
+                                        <p>Basic knowledge and good at vibe coding.</p>
                                     </div>
-                                    <h3 class="tech-name">CSS3</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>CSS3</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 90%;"></div>
-                                        </div>
-                                        <span class="level-text">Advanced</span>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fab fa-python"></i></div>
+                                        <h4 class="tech-name">Python</h4>
+                                        <p>Basic scripting, pandas, numpy.</p>
                                     </div>
-                                    <p>Creating responsive, animated interfaces with modern CSS techniques.</p>
-                                    <div class="tech-years">3+ years</div>
-                                </div>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fab fa-php"></i></div>
+                                        <h4 class="tech-name">PHP</h4>
+                                        <p>Coding and vibe coding with AI assistance.</p>
+                                    </div>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fas fa-database"></i></div>
+                                        <h4 class="tech-name">MySQL</h4>
+                                        <p>Basic database usage.</p>
+                                    </div>
+                                </article>
                             </div>
-                        </div>
-                        
-                        <div class="tech-card" data-category="frontend">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fab fa-js"></i>
+                        </section>
+
+                        <section class="tech-category-group" aria-labelledby="dev-tools-title">
+                            <h3 class="tech-category-title" id="dev-tools-title">Dev Tools</h3>
+                            <div class="tech-grid">
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fab fa-git-alt"></i></div>
+                                        <h4 class="tech-name">Git</h4>
+                                        <p>3 years experience managing version control and code collaboration.</p>
                                     </div>
-                                    <h3 class="tech-name">JavaScript</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>JavaScript</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 85%;"></div>
-                                        </div>
-                                        <span class="level-text">Advanced</span>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fab fa-github"></i></div>
+                                        <h4 class="tech-name">GitHub</h4>
+                                        <p>Advanced usage.</p>
                                     </div>
-                                    <p>Creating dynamic web experiences with modern JavaScript (ES6+).</p>
-                                    <div class="tech-years">3+ years</div>
-                                </div>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fab fa-linux"></i></div>
+                                        <h4 class="tech-name">Linux</h4>
+                                        <p>Fundamentals.</p>
+                                    </div>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fas fa-fire"></i></div>
+                                        <h4 class="tech-name">Firebase</h4>
+                                        <p>Implemented Google Authentication and real-time database setup.</p>
+                                    </div>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fas fa-robot"></i></div>
+                                        <h4 class="tech-name">AI Agents</h4>
+                                        <p>Comfortable using Cursor, Trae, Codex and other AI coding agents.</p>
+                                    </div>
+                                </article>
                             </div>
-                        </div>
-                        
-                        <!-- Backend -->
-                        <div class="tech-card" data-category="backend">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fab fa-node-js"></i>
+                        </section>
+
+                        <section class="tech-category-group" aria-labelledby="cloud-title">
+                            <h3 class="tech-category-title" id="cloud-title">Cloud &amp; Platforms</h3>
+                            <div class="tech-grid">
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fab fa-aws"></i></div>
+                                        <h4 class="tech-name">AWS</h4>
+                                        <p>Fundamental knowledge and basic setup.</p>
                                     </div>
-                                    <h3 class="tech-name">Node.js</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>Node.js</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 75%;"></div>
-                                        </div>
-                                        <span class="level-text">Intermediate</span>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fab fa-wordpress"></i></div>
+                                        <h4 class="tech-name">WordPress</h4>
+                                        <p>Basic setup and configuration.</p>
                                     </div>
-                                    <p>Building scalable server-side applications with JavaScript.</p>
-                                    <div class="tech-years">2+ years</div>
-                                </div>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fab fa-shopify"></i></div>
+                                        <h4 class="tech-name">Shopify</h4>
+                                        <p>Basic store setup fundamentals.</p>
+                                    </div>
+                                </article>
                             </div>
-                        </div>
-                        
-                        <div class="tech-card" data-category="backend">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fab fa-python"></i>
+                        </section>
+
+                        <section class="tech-category-group" aria-labelledby="security-title">
+                            <h3 class="tech-category-title" id="security-title">Security &amp; Networking</h3>
+                            <div class="tech-grid">
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fas fa-bug"></i></div>
+                                        <h4 class="tech-name">BurpSuite</h4>
+                                        <p>Basic usage - practiced SQL injection and brute force labs.</p>
                                     </div>
-                                    <h3 class="tech-name">Python</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>Python</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 65%;"></div>
-                                        </div>
-                                        <span class="level-text">Intermediate</span>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fas fa-shield-alt"></i></div>
+                                        <h4 class="tech-name">BTLO</h4>
+                                        <p>Blue Team Labs Online - solved some beginner labs.</p>
                                     </div>
-                                    <p>Developing backend solutions and automation scripts with Python.</p>
-                                    <div class="tech-years">1+ years</div>
-                                </div>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fas fa-network-wired"></i></div>
+                                        <h4 class="tech-name">Cisco Packet Tracer</h4>
+                                        <p>Basic networking familiarity - router, switches, VLAN configuration with revision.</p>
+                                    </div>
+                                </article>
                             </div>
-                        </div>
-                        
-                        <!-- Tools -->
-                        <div class="tech-card" data-category="tools">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fab fa-git-alt"></i>
+                        </section>
+
+                        <section class="tech-category-group" aria-labelledby="growth-title">
+                            <h3 class="tech-category-title" id="growth-title">AI &amp; Growth</h3>
+                            <div class="tech-grid">
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fas fa-brain"></i></div>
+                                        <h4 class="tech-name">AI/ML</h4>
+                                        <p>Vibe coding with AI/ML tools.</p>
                                     </div>
-                                    <h3 class="tech-name">Git</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>Git</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 90%;"></div>
-                                        </div>
-                                        <span class="level-text">Advanced</span>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fas fa-search"></i></div>
+                                        <h4 class="tech-name">SEO</h4>
+                                        <p>Basic SEO improvements using keywords and logic.</p>
                                     </div>
-                                    <p>Managing code versions and collaborating with distributed teams.</p>
-                                    <div class="tech-years">4+ years</div>
-                                </div>
+                                </article>
+
+                                <article class="tech-card">
+                                    <div class="tech-card-inner">
+                                        <div class="tech-icon"><i class="fas fa-bullhorn"></i></div>
+                                        <h4 class="tech-name">Digital Marketing</h4>
+                                        <p>Meta Ads, Google Sponsored Ads and basic marketing strategies.</p>
+                                    </div>
+                                </article>
                             </div>
-                        </div>
-                        
-                        <div class="tech-card" data-category="tools">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fab fa-github"></i>
-                                    </div>
-                                    <h3 class="tech-name">GitHub</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>GitHub</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 90%;"></div>
-                                        </div>
-                                        <span class="level-text">Advanced</span>
-                                    </div>
-                                    <p>Collaborating on code, managing projects, and implementing CI/CD workflows.</p>
-                                    <div class="tech-years">4+ years</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="tech-card" data-category="tools">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fas fa-terminal"></i>
-                                    </div>
-                                    <h3 class="tech-name">CLI</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>Command Line</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 85%;"></div>
-                                        </div>
-                                        <span class="level-text">Advanced</span>
-                                    </div>
-                                    <p>Automating workflows and managing systems through command line interfaces.</p>
-                                    <div class="tech-years">4+ years</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- Learning -->
-                        <div class="tech-card" data-category="learning">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fab fa-react"></i>
-                                    </div>
-                                    <h3 class="tech-name">React</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>React</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 60%;"></div>
-                                        </div>
-                                        <span class="level-text">Beginner</span>
-                                    </div>
-                                    <p>Learning to build interactive UIs with React's component-based architecture.</p>
-                                    <div class="tech-years">Learning</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="tech-card" data-category="learning">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fab fa-sass"></i>
-                                    </div>
-                                    <h3 class="tech-name">Sass</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>Sass</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 70%;"></div>
-                                        </div>
-                                        <span class="level-text">Intermediate</span>
-                                    </div>
-                                    <p>Learning to leverage variables, mixins, and nesting for efficient CSS workflows.</p>
-                                    <div class="tech-years">Learning</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="tech-card" data-category="learning">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fab fa-bootstrap"></i>
-                                    </div>
-                                    <h3 class="tech-name">Bootstrap</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>Bootstrap</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 75%;"></div>
-                                        </div>
-                                        <span class="level-text">Intermediate</span>
-                                    </div>
-                                    <p>Learning to rapidly build responsive interfaces with Bootstrap components.</p>
-                                    <div class="tech-years">Learning</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="tech-card" data-category="learning">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fas fa-database"></i>
-                                    </div>
-                                    <h3 class="tech-name">MongoDB</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>MongoDB</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 60%;"></div>
-                                        </div>
-                                        <span class="level-text">Beginner</span>
-                                    </div>
-                                    <p>Learning to design and implement NoSQL database solutions.</p>
-                                    <div class="tech-years">Learning</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="tech-card" data-category="learning">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fas fa-server"></i>
-                                    </div>
-                                    <h3 class="tech-name">Firebase</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>Firebase</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 65%;"></div>
-                                        </div>
-                                        <span class="level-text">Beginner</span>
-                                    </div>
-                                    <p>Learning to build serverless applications with Firebase's suite of tools.</p>
-                                    <div class="tech-years">Learning</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="tech-card" data-category="learning">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fab fa-aws"></i>
-                                    </div>
-                                    <h3 class="tech-name">AWS</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>AWS</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 40%;"></div>
-                                        </div>
-                                        <span class="level-text">Beginner</span>
-                                    </div>
-                                    <p>Learning to deploy and manage cloud infrastructure on AWS.</p>
-                                    <div class="tech-years">Learning</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="tech-card" data-category="learning">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fab fa-docker"></i>
-                                    </div>
-                                    <h3 class="tech-name">Docker</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>Docker</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 45%;"></div>
-                                        </div>
-                                        <span class="level-text">Beginner</span>
-                                    </div>
-                                    <p>Learning to containerize applications for consistent deployment environments.</p>
-                                    <div class="tech-years">Learning</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="tech-card" data-category="learning">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fas fa-brain"></i>
-                                    </div>
-                                    <h3 class="tech-name">AI/ML</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>AI/ML</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 30%;"></div>
-                                        </div>
-                                        <span class="level-text">Beginner</span>
-                                    </div>
-                                    <p>Learning machine learning fundamentals and AI application development.</p>
-                                    <div class="tech-years">Learning</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="tech-card" data-category="learning">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fab fa-flutter"></i>
-                                    </div>
-                                    <h3 class="tech-name">Flutter</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>Flutter</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 40%;"></div>
-                                        </div>
-                                        <span class="level-text">Beginner</span>
-                                    </div>
-                                    <p>Learning to build cross-platform mobile applications with Flutter.</p>
-                                    <div class="tech-years">Learning</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="tech-card" data-category="learning">
-                            <div class="tech-card-inner">
-                                <div class="tech-card-front">
-                                    <div class="tech-icon">
-                                        <i class="fas fa-link"></i>
-                                    </div>
-                                    <h3 class="tech-name">Web3</h3>
-                                </div>
-                                <div class="tech-card-back">
-                                    <h3>Web3</h3>
-                                    <div class="tech-level">
-                                        <div class="level-bar">
-                                            <div class="level-fill" style="width: 30%;"></div>
-                                        </div>
-                                        <span class="level-text">Beginner</span>
-                                    </div>
-                                    <p>Learning blockchain technologies and decentralized application development.</p>
-                                    <div class="tech-years">Learning</div>
-                                </div>
-                            </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
             </section>
@@ -504,6 +283,7 @@
                             <a href="index.html">Home</a>
                             <a href="about.html">About</a>
                             <a href="projects.html">Projects</a>
+                            <a href="Certification.html">Certifications</a>
                             <a href="tech.html">Tech Stack</a>
                             <a href="blog.html">Blog</a>
                             <a href="contact.html">Contact</a>
@@ -523,131 +303,14 @@
     </div> <!-- End .page-background-wrapper -->
 
     <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/tech.js"></script>
-    
-    <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.121.1/build/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/animations.js"></script>
-    <script src="js/cursor.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/immersive-sections.js"></script>
     <script src="js/tech.js"></script>
-    <script>
-        // Initialize particles.js
-        document.addEventListener('DOMContentLoaded', function() {
-            particlesJS("particles-js", {
-                "particles": {
-                    "number": {
-                        "value": 80,
-                        "density": {
-                            "enable": true,
-                            "value_area": 800
-                        }
-                    },
-                    "color": {
-                        "value": "#ffffff"
-                    },
-                    "shape": {
-                        "type": "circle",
-                        "stroke": {
-                            "width": 0,
-                            "color": "#000000"
-                        },
-                        "polygon": {
-                            "nb_sides": 5
-                        }
-                    },
-                    "opacity": {
-                        "value": 0.5,
-                        "random": false,
-                        "anim": {
-                            "enable": false,
-                            "speed": 1,
-                            "opacity_min": 0.1,
-                            "sync": false
-                        }
-                    },
-                    "size": {
-                        "value": 3,
-                        "random": true,
-                        "anim": {
-                            "enable": false,
-                            "speed": 40,
-                            "size_min": 0.1,
-                            "sync": false
-                        }
-                    },
-                    "line_linked": {
-                        "enable": true,
-                        "distance": 150,
-                        "color": "#ffffff",
-                        "opacity": 0.4,
-                        "width": 1
-                    },
-                    "move": {
-                        "enable": true,
-                        "speed": 6,
-                        "direction": "none",
-                        "random": false,
-                        "straight": false,
-                        "out_mode": "out",
-                        "bounce": false,
-                        "attract": {
-                            "enable": false,
-                            "rotateX": 600,
-                            "rotateY": 1200
-                        }
-                    }
-                },
-                "interactivity": {
-                    "detect_on": "canvas",
-                    "events": {
-                        "onhover": {
-                            "enable": true,
-                            "mode": "grab"
-                        },
-                        "onclick": {
-                            "enable": true,
-                            "mode": "push"
-                        },
-                        "resize": true
-                    },
-                    "modes": {
-                        "grab": {
-                            "distance": 140,
-                            "line_linked": {
-                                "opacity": 1
-                            }
-                        },
-                        "bubble": {
-                            "distance": 400,
-                            "size": 40,
-                            "duration": 2,
-                            "opacity": 8,
-                            "speed": 3
-                        },
-                        "repulse": {
-                            "distance": 200,
-                            "duration": 0.4
-                        },
-                        "push": {
-                            "particles_nb": 4
-                        },
-                        "remove": {
-                            "particles_nb": 2
-                        }
-                    }
-                },
-                "retina_detect": true
-            });
-        });
-    </script>
 </body>
 </html>
